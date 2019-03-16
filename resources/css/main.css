@@ -19,13 +19,10 @@ body {
 
   .margin {margin-bottom: 45px;} */
 
-  /* .jumbotron {
-   background-image: url('./resources/images/barleyfield.jpg');
-   background-color: #FFFFFF;
-   background-size: cover;
-   background-attachment: fixed;
-   min-height: 400px;
-  } */
+  .jumbotron {
+   min-height: 200px;
+   margin-top: 70px;
+  }
   .bkgrd-1 {
     min-height: 400px;
     min-width: 100%;
@@ -50,6 +47,9 @@ body {
   .bkgrd-4 {
     background-color: #000000; /* Footer */
     color: #000000;
+  }
+  .bkgrd-5 {
+    margin-top: 30px;
   }
   /* .container {
     background-color: #FFFFFF;
