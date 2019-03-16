@@ -1,12 +1,69 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
   <head>
     <title>first_landing</title>
-    <link rel="stylesheet" type="text/css" href="./resources/css/style1.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css">
+    <link href='resources/css/bootstrap.min.css' rel='stylesheet'>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>first_website</h1>
-    <p>Learning HTML, CSS, and versioning on git </br>
+    <!--Navbar  -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">first_Site</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown
+            <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Example-1</a></li>
+                <li><a href="#">Example-2</a></li>
+              </ul>
+              <li><a href="#">Form</a></li>
+              <li><a href="#">Timeline</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- container 1 has jumbotron-->
+    <!-- <div class='jumbotron'> -->
+      <div class="container-fluid bkgrd-1">
+        <h3>Look at first site! </h3>
+        <h4>beginner web development course - html, css, bootstrap</h4>
+      </div>
+    <!-- </div> -->
+    <!-- container 2 -->
+    <div class="container-fluid bkgrd-2">
+      <p>Soon you will be able to: <br>Marvel at examples of HTML and MarkUp on this page!<br>
+      Admire the navigation bar - its menus and links to other core website features!<br>
+      Check out my responsiveness, built on Bootstrap!<br>
+      Wonder at the application of CSS!</p>
+    </div>
+    <!-- container 3 -->
+    <div class="container-fluid bkgrd-3">
+    <p>Soon you will be able to: <br>Read what other have said<br>
+    Go wild for this site by using these social media links.<br> And more...
     </p>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid bkgrd-4">
+      <p>And finally the footer. Thanks to:  <a href="https://www.codefirstgirls.org.uk/">www.codefirstgirls.org.uk</a></p>
+    </footer>
   </body>
 </html>
